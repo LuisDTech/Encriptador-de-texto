@@ -133,7 +133,7 @@ header img {
   content: "";
   position: absolute;
   inset: 0;
-  background: #22d4fd;
+  background: #0000;
   box-shadow: 0 0 0 50px;
   clip-path: polygon(-50px -20px,10% -12px,20% 0,calc(50% - 15px) 0,calc(50% - 10px) -20px,calc(50% - 8px) -15px,calc(50% + 8px) -15px,calc(50% + 10px) -20px,calc(50% + 15px) 0,80% 0,90% -12px,calc(100% + 50px) -20px,100% 80%,calc(100% + 10px) calc(100% + 10px),60% 100%,50% calc(100% + 15px),40% 100%,-10px calc(100% + 10px),0 80%);
 }
@@ -145,10 +145,36 @@ header img {
   to {transform:perspective(300px) translateZ(100px);opacity:0}
 }
 
-footer {
-  font-size: 1.5rem;
+.container_footer {
+  position: relative;
+  padding: 0.5rem;
+  background-color: #cbd7e4;
+}
+
+.identificador {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1rem; /* Ajusta el tamaño de fuente según tu preferencia */
+  padding: 0.5rem;
+}
+
+.contactos {
   text-align: center;
-  margin-top: 20px;
-  padding-top: 10px;
-  border-top: 1px solid #ccc;
+}
+
+.contactos h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.logo_redes a {
+  margin: 0 0.5rem;
+}
+
+.icono_linkedin,
+.icono_github,
+.icono_instagrams {
+  width: 2.3rem; /* Ajusta el tamaño del icono según tu preferencia */
+  height: 2.3rem;
 }

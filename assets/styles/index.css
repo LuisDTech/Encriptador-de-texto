@@ -144,3 +144,11 @@ header img {
 @keyframes l9 {
   to {transform:perspective(300px) translateZ(100px);opacity:0}
 }
+
+footer {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}

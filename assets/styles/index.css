@@ -154,7 +154,7 @@ header img {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   padding: 0.5rem;
 }
 
@@ -173,7 +173,55 @@ header img {
 
 .icono_linkedin,
 .icono_github,
-.icono_instagrams {
-  width: 2.3rem; /* Ajustar el tamaño del icono*/
+.icono_instagram {
+  width: 2.3rem;
   height: 2.3rem;
+}
+
+/* Responsividad */
+@media (max-width: 1200px) {
+  .presentacion {
+      flex-direction: column-reverse;
+      padding: 5%;
+  }
+  .presentacion_contenido {
+      width: auto;
+  }
+  .header {
+      padding: 10%;
+  }
+  .header_menu {
+      justify-content: center;
+  }
+  .container_footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+  }
+  .identificador {
+      position: static;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+  }
+  .contactos {
+      text-align: center;
+  }
+  .contactos h4 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+  }
+  .logo_redes {
+      display: flex;
+      justify-content: center;
+  }
+  .logo_redes a {
+      margin: 0 0.5rem;
+  }
+  .icono_linkedin,
+  .icono_github,
+  .icono_instagram {
+      width: 2rem;
+      height: 2rem;
+  }
 }

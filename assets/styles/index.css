@@ -121,7 +121,6 @@ header img {
   }
 }
 
-
 /* HTML: <div class="loader"></div> */
 .loader {
   width: 100px;
@@ -155,7 +154,7 @@ header img {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 1rem; /* Ajusta el tamaño de fuente según tu preferencia */
+  font-size: 1.5rem; 
   padding: 0.5rem;
 }
 
@@ -175,6 +174,6 @@ header img {
 .icono_linkedin,
 .icono_github,
 .icono_instagrams {
-  width: 2.3rem; /* Ajusta el tamaño del icono según tu preferencia */
+  width: 2.3rem; /* Ajustar el tamaño del icono*/
   height: 2.3rem;
 }
